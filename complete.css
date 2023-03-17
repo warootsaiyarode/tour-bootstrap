@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  margin-top: 10px;
+  box-sizing: border-box;
+  background-color: #E5EDEF;
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/31/21/01/sea-2561017_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.text1-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(50px + 35vmin);
+    height: calc(50px + 35vmin);
+    border-radius: 100%;
+    font-size: calc(1px + 35vmin);
+    color: #fff;
+    background-color: #D7CDC2;
+    margin: 105px auto 0 auto;
+  }
+
+  .text2-container {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: calc(1px + 5vmin);
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+    margin-top: 86px;
+  }
+  .text3-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: bolder;
+    font-weight: 1000;
+    font-size: calc(25px + 5vmin);
+    color: #80AAA6;
+    margin-top: 42px;
+    margin-bottom: 309px;
+  }
+
+
+
+.footer-container {
+    margin: 0;
+    margin-top: 2px;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+  }
+  
+  .footer .fa-solid {
+    font-size: calc(5% + 7vmin);
+    cursor: pointer;
+  }
+  
+  .footer h5 {
+    font-size: calc(50% + 1.5vmin);
+  }

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    margin-top: 49px;
+    box-sizing: border-box;
+    background-color: #E5EDEF;
+    background-image: url('https://images.unsplash.com/photo-1533604145636-765f22ac7352?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+input[type="button"][value="FACEBOOK"] {
+    background-color: rgba(24, 119, 242, 1);
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    font-size: calc(5% + 3vmin);
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"][value="GMAIL"] {
+    margin-top: 15px;
+    background-color: rgba(220, 53, 69, 1);
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    font-size: calc(5% + 3vmin);
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: calc(5% + 7vmin);
+    margin-top: 20px;
+}
+
+.inputText-container {
+    margin: 10px auto 0 auto;
+}
+
+input[type="text"] {
+    margin: 0 0 10px 0;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: calc(5% + 3vmin);
+    padding: 0 10px;
+    border: 2px solid black;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #b2b2b2;
+}
+
+.inputButton-container {
+    margin-top: 24px;
+    margin-bottom: 432px;
+}
+input[type="button"][value="Next"] {
+    font-size: calc(5% + 3vmin);
+    background-color: #80AAA6;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+  }
+
+
+
+.footer-container {
+    margin: 0;
+    margin-top: 2px;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+}
+
+.footer .fa-solid {
+    font-size: calc(5% + 7vmin);
+    cursor: pointer;
+}
+
+.footer h5 {
+    font-size: calc(50% + 1.5vmin);
+}

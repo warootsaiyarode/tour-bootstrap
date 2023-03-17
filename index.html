@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4728870659.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <link rel="stylesheet" href="booking-calendar.css">
+    <title>Index</title>
+
+    <script>
+        $(document).ready(function () {
+            $("form#search_recommends").submit(function (event) {
+                event.preventDefault();
+                alert($('#start-date').val());
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="page col">
+
+    </div>
+
+    <div class="container col">
+        <form id="form_test">
+            <div class="row-12 where-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Where are you going?">
+            </div>
+
+            <div class="row-sm-6 calendar-container">
+                <i class="fa-solid fa-calendar"></i>
+                <input type="text" id="start-date" placeholder="Date" />
+            </div>
+
+            <div class="row number-of-person-container">
+                <i class="col-2 fa-solid fa-user d-flex align-items-center"></i>
+                <div class="form-group number">
+                    <select class="form-control " id="exampleFormControlSelect1">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <h5 class="text-left d-flex align-items-center">adults</h5>
+                <div class="col-2"></div>
+                <div class="form-group number">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <h5 class="text-left d-flex align-items-center">childen</h5>
+            </div>
+
+            <button class="col-sm-12 search-container" type="submit">Search</button>
+
+        </form>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row">
+            <form id="search_recommends" class="" action="Home/search_recommends" style="">
+                <div class="col-12"><input type="text" class="form-control" name="Keyword" placeholder="choice Location" /></div>
+                <input type="date" class="form-control" name="PickDate" />
+                <input type="number" class="form-control" name="Adults" placeholder="amount adults" value="1" />
+                <input type="number" class="form-control" name="Kids" placeholder="amount kids" value="0" />
+                <input type="number" name="PageSize" value="1" style="display:none;" />
+                <div class="col-12"><button type="submit" class="btn btn-info">Search</button></div>
+            </form>
+        </div>
+    </div> -->
+
+
+    <div class="icon-container">
+        <div class="row icon">
+            <div class="col text-center beach">
+                <i class="row-9 fa-solid fa-umbrella-beach"></i>
+                <h5 class="row-3">Beach</h5>
+            </div>
+            <div class="col text-center dams">
+                <i class="fa-solid fa-water"></i>
+                <h5>Dams</h5>
+            </div>
+            <div class="col text-center mountains">
+                <i class="fa-solid fa-mountain-sun"></i>
+                <h5>Mountains</h5>
+            </div>
+            <div class="col text-center view">
+                <i class="fa-solid fa-tree"></i>
+                <h5>View</h5>
+            </div>
+            <div class="col text-center zoo">
+                <i class="fa-solid fa-hippo"></i>
+                <h5>Zoo</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-12 container image-container text-center">
+        <img src="img/img.jpg" class="img-fluid" alt="Responsive image">
+        <div class="text-overlay">
+            Kao tao Thai
+        </div>
+    </div>
+
+
+    <div class="row select-company-container">
+        <input type="text" placeholder="Select Company Tourist">
+        <i class="fa-solid fa-building"></i>
+    </div>
+
+    <div class="row book-container text-center">
+        <h5 class="col">28,431 night</h5>
+        <h5 class="col">Book now</h5>
+    </div>
+
+
+    <div class="footer-container">
+        <div class="row footer">
+            <div class="col text-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h5>Explore</h5>
+            </div>
+            <div class="col text-center">
+                <i class="fa-solid fa-house"></i>
+                <h5>Home</h5>
+            </div>
+            <div class="col text-center">
+                <i class="fa-solid fa-user"></i>
+                <h5>Profile</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="col-sm-12 container image-container text-center">
+        <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_960_720.jpg" alt="" class="img-fluid">
+        <h2>KAO TAO THAI</h2>
+    </div> -->
+    <!-- <div class="input-container">
+        <i class="fa-solid fa-building"></i>
+        <input type="text" placeholder="Select Company Tourist">
+    </div> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="booking-calendar.js"></script>
+</body>
+
+</html>

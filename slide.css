@@ -119,27 +119,6 @@ body {
 }
 
 
-
-.icon-container {
-  margin: 0;
-  margin-top: 10px;
-  padding-top: 15px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #FFFFFF;
-}
-
-.icon .fa-solid {
-  font-size: calc(5% + 5vmin);
-  cursor: pointer;
-}
-
-.icon h5 {
-  font-size: calc(50% + 0.8vmin);
-}
-
-
-
 .image-container {
   position: relative;
   margin-top: 7px;
@@ -219,10 +198,6 @@ body {
 
 
 .footer-container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   margin: 0;
   margin-top: 2px;
   padding-top: 15px;

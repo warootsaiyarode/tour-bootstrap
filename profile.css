@@ -41,6 +41,7 @@ h1 {
     height: 68px;
     width: 100%;
     margin: 0;
+    border-bottom: 1px solid #000000;
   }
   .sub-data-container h5 {
     font-size: calc(5% + 4vmin);

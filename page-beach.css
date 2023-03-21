@@ -8,22 +8,78 @@ body {
   margin: 0;
   margin-top: 10px;
   box-sizing: border-box;
-  background-color: #E5EDEF;
+  background: #ffff;
 }
 
 
+h1 {
+  font-size: calc(5% + 7vmin);
+  margin-top: 51px;
+  font-weight: 1000;
+}
 
+.data-container{
+  margin-bottom: 10px;
+  border: 2px solid #B5AB9B;
+  border-radius: 6px;
+  width: 98%;
 
+}
+.sub-data-container{
+  height: 66px;
+  width: 100%;
+  margin: 0;
 
+}
+.sub-data-container i {
+  display: flex;
+  justify-content: right;
+  font-size: 40px;
+}
+.right-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-top-container i{
+  font-size: calc(10px + 1vmin);
+}
+.sub-data-container h5 {
+  font-size: calc(5px + 1vmin);
+}
 
+.image-container {
+  height: 544px;
+  flex-grow: 1;
+  margin-bottom: 14px;
+}
+.image-container img{
+  min-width: 100%;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  block-size: 100%;
+}
+
+.name {
+width: 73%;
+margin: auto;
+margin-top: 14px;
+margin-bottom: 10px;
+}
+.name h5{
+  font-size: calc(10px + 2vmin);
+  margin: 0;
+  font-weight: 1000;
+  font-style: bolder;
+  }
 
 
 .select-company-container {
-    margin-top: 10px;
     position: relative;
-    padding-bottom: 13px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
   }
   
   .select-company-container input {
@@ -60,16 +116,9 @@ body {
     cursor: pointer;
   }
   
-  .book-container h5 {
-    color: #FFFFFF;
-    margin: auto;
-    font-size: calc(5% + 5vmin);
-  }
-  
   
   
   .footer-container {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

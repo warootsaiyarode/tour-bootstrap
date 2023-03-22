@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #ffff;
+    height: 932px;
+    
+}
+
+
+h1 {
+    font-size: calc(5% + 7vmin);
+    margin-top: 51px;
+    font-weight: 800;
+}
+
+.dropdown-container {
+    border-bottom: 1px solid #b3040400;
+    padding: 2px;
+    height: 790px;
+    margin: 15px auto 0 auto;
+    width: 80%;
+    /* background-color: chocolate; */
+}
+
+.dropdown-button {
+    background-color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #000000;
+    /* or any desired color */
+    width: 100%;
+    margin: 0px auto;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 1000;
+}
+
+.dropdown-box-sub {
+    border: none;
+    margin: 0;
+    width: 80%;
+    /* background-color: palegoldenrod; */
+    height: auto;
+}
+
+.dropdown-sub-setting {
+    border-bottom: 1px solid #000000;
+    /* or any desired color */
+    height: 55px;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 22px;
+    font-weight: 700;
+    color: #BDBBBB;
+    /* background-color: aqua; */
+}
+
+
+
+
+.footer-container {
+    margin: 0;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+
+  }
+  
+  .footer .fa-solid {
+    font-size: calc(5% + 7vmin);
+    cursor: pointer;
+  }
+  
+  .footer h5 {
+    font-size: calc(50% + 1.5vmin);
+  }

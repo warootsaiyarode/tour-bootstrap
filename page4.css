@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+
+.time-container {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(13px + 2vmin);
+    color: black;
+    margin-top: 90px;
+}
+
+.total-container {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(13px + 2vmin);
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.select-payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    background-color: #80AAA6;
+    box-shadow: 0px 1px 1px #80AAA6;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.select-payment-container h5 {
+    font-weight: 500;
+    font-size: calc(10px + 1.5vmin);
+    margin: 0;
+}
+
+.type-card-container {
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 80%;
+    height: auto;
+}
+
+.type-card-container .type-card {
+    border-bottom: 1px solid #000000;
+    height: 63px;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    /* background-color: aqua; */
+}
+
+
+
+
+.footer-container {
+    margin: 0;
+    margin-top: 400px;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+}
+
+.footer .fa-solid {
+    font-size: calc(5% + 7vmin);
+    cursor: pointer;
+}
+
+.footer h5 {
+    font-size: calc(50% + 1.5vmin);
+}

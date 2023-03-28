@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+
+.border1{
+    width: 80%;
+    height: auto;
+    border-bottom:1px solid #B3B3B3;
+    margin: 5px auto 0 auto;
+}
+.border2{
+    width: 80%;
+    height: auto;
+    border-bottom:1px solid #B3B3B3;
+    margin: 0 auto;
+}
+
+.confirm-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    background-color: #80AAA6;
+    box-shadow: 0px 1px 1px #80AAA6;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.confirm-btn h5 {
+    font-weight: 500;
+    font-size: calc(10px + 1.5vmin);
+    margin: 0;
+}
+
+.reservaration {
+    display: flex;
+    font-weight: 500;
+    justify-content: left;
+    font-size: calc(13px + 1.5vmin);
+    color: black;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10%;
+}
+.data-container{
+    margin-top: 9px;
+    background-color: #E5EDEF;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 5%;
+    width: 70%;
+}
+.data-container h5{
+    font-size: calc(8px + 1.3vmin);
+}
+
+.order-items{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 75%;
+}
+.order-items h6{
+    font-size: calc(8px + 1.8vmin);
+    font-weight: 800;
+}
+
+.details-container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 15%;
+}
+.details-container h6{
+    font-size: calc(8px + 1vmin);
+    margin: 10px 0;
+    padding: 0;
+}
+.subtotal{
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.subtotal h6{
+    font-size: calc(8px + 1vmin);
+}
+.total-amount{
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.total-amount h6{
+    font-size: calc(8px + 1vmin);
+    font-weight: 1000;
+    font-style: bolder;
+}
+.payment-visa{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 75%;
+}
+.payment-visa h6{
+    font-size: calc(8px + 1vmin);
+    font-weight: 500;
+}
+.check-out-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 80%;
+    background-color: #EE7E16;
+    box-shadow: 0px 1px 1px #EE7E16;
+    border-radius: 6px;
+    color: black;
+    margin-top: 20px;
+}
+
+.check-out-btn h5 {
+    font-weight: 1000;
+    font-size: calc(10px + 6vmin);
+    margin: 0;
+}
+
+
+
+
+.footer-container {
+    margin: 0;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.footer .fa-solid {
+    font-size: calc(5% + 7vmin);
+    cursor: pointer;
+}
+
+.footer h5 {
+    font-size: calc(50% + 1.5vmin);
+}
